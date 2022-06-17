@@ -26,6 +26,6 @@ int main(){
     Foo foo1(2);
     Foo foo2(3);
     Foo foo3(3);
-    nullptr;
     foo1 + foo2 = foo3;
+    //foo2 = foo3; // compile-time error
 }
